@@ -24,3 +24,9 @@ footer {
     background-image: linear-gradient(to right, #5637DD, #60106B);
     color: white;
 }
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 100px;
+}
