@@ -80,7 +80,25 @@
                 <hr />
             </div>
             <div class="col-md-10">
-                Form goes here
+                <form>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" />
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" />
+                    <label for="areaCode">Contact Tel.</label>
+                    <input type="tel" id="areaCode" name="areaCode" placeholder="Area Code" />
+                    <input type="tel" name="telNum" placeholder="Tel. number" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" />
+                    May we contact you?
+                    <input type="radio" id="contactYes" name="contactRadios" value="yes" />
+                    <label for="contactYes">Yes</label>
+                    <input type="radio" id="contactNo" name="contactRadios" value="no" />
+                    <label for="contactNo">No</label>
+                    <label for="feedback">Your Feedback</label>
+                    <textarea name="feedback" rows="8"></textarea>
+                    <button type="submit">Send Feedback</button>
+                </form>
             </div>
        </div>
 
