@@ -26,13 +26,21 @@ header h2 {
     
 }
 
-.site-footer a {
+.site-footer > .container a {
     color: #f0f0f0;
     font-family: "Open Sans", sans-serif;
 }
 
-.site-footer a:hover {
+.site-footer > .container a:hover {
     color: #ff9036;
+}
+
+.container a {
+    color: #ff9036;
+}
+
+.container a:hover {
+    color: #d15300;
 }
 
 .jumbotron {
@@ -53,6 +61,10 @@ header h2 {
 
 .navbar {
     background-color: #025402;
+}
+
+.breadcrumb a {
+    color:#ff9036;
 }
 
 .carousel-caption {
