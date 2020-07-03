@@ -7,22 +7,41 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046C5;
+    color: #d15300;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #ff9036;
 }
 
 .site-footer {
-    background-image: linear-gradient(#CDC8FF, white);
-    padding: 20px, 0px;
+    background-color: #2894c9;
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/26/13/50/rv-2788677_1280.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 30px, 0px;
+    color: white;
+    font-family: "Chewy", sans-serif;
+    
+}
+
+.site-footer a {
+    color: #f0f0f0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.site-footer a:hover {
+    color: #ff9036;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #60106B);
+    background-image: url("https://cdn.pixabay.com/photo/2016/02/18/22/16/tent-1208201_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -33,7 +52,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #901CAD;
+    background-color: #025402;
 }
 
 .carousel-caption {
@@ -41,5 +60,5 @@ header h2 {
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: inset #ff9036;
 }
