@@ -26,7 +26,7 @@ header h2 {
     
 }
 
-.site-footer > .container a {
+.site-footer > .container a, .jumbotron > .container a, .jumbotron > .container a:hover {
     color: #f0f0f0;
     font-family: "Open Sans", sans-serif;
 }
