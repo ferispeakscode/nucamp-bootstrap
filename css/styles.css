@@ -11,14 +11,14 @@ header h2 {
   color: #CEC8FF; }
 
 .site-footer {
-  background-image: linear-gradient(#CDC8FF, white);
+  background-image: linear-gradient(#CDC8FF, #fff);
   padding: 20px, 0px; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
   background-image: linear-gradient(to right, #5637DD, #60106B);
-  color: white; }
+  color: #fff; }
 
 .row-content {
   padding: 50px 0;
@@ -38,3 +38,11 @@ header h2 {
   position: absolute;
   right: 0;
   bottom: 0; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: #fff; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: #fff; }

@@ -1,5 +1,6 @@
  /* JS "ready function", shorthand for: $(document).ready(function() {...}*/
  $(function() {
+     //Play/Pause toggle for carousel
     $(".carousel").carousel( {interval: 2000 } );
     $("#carouselButton").click(function() {
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
@@ -12,7 +13,19 @@
             $("#carouselButton").children("i").addClass("fa-pause");
         }
     });
+
+    //Sample code for single carousel-play button
     //$("#carouselPlay").click(function() {
     //    $(".carousel").carousel("cycle");
     //});
+
+    //
+    $("#reserveButton").click(function() {
+        $("#reserveModal").modal("show");
+    });
+
+    $("#loginButton").click(function() {
+        $("#loginModal").modal("show");
+    });
+
 });
