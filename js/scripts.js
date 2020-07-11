@@ -19,11 +19,12 @@
     //    $(".carousel").carousel("cycle");
     //});
 
-    //
+    //jQuery to show reserve modal
     $("#reserveButton").click(function() {
         $("#reserveModal").modal("show");
     });
 
+    //jQuery to show login modal
     $("#loginButton").click(function() {
         $("#loginModal").modal("show");
     });
